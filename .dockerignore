@@ -1,24 +1,22 @@
-# Python cache/artifacts
+# VCS metadata
+.git/
+.gitignore
+
+# Local secrets
+.env
+.env.*
+
+# Python caches/envs
 __pycache__/
 *.py[cod]
-*$py.class
-
-# Virtual environments
 .venv/
 venv/
 env/
-
-# Test/tool caches
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 
-# Local secrets/config
-.env
-.env.*
-!.env.example
-
-# OS/editor artifacts
+# Local/OS artifacts
 .DS_Store
 .vscode/
 .idea/
